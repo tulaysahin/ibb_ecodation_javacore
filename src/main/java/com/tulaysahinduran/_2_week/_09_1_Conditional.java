@@ -8,5 +8,6 @@ public class _09_1_Conditional {
         }else {
             System.out.println("Negatif Sayıdır");
         }
+
     }
 }
