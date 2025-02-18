@@ -6,4 +6,5 @@ public class _01_JavaPsvm {
         //sout tab
         System.out.println("Tülay Şahin");
     }//end pswm
+
 }//end class
