@@ -35,7 +35,7 @@ public class _16_1_Array {
         String[] city = arrayMethod2();
         // for each
         for (int i = 0; i < city.length; i++) {
-            System.out.println(_15_4_SpecialColor.BLUE + city[i] + _15_4_SpecialColor.RESET);
+            System.out.println(com.tulaysahinduran._2_week._15_4_SpecialColor.BLUE + city[i] + com.tulaysahinduran._2_week._15_4_SpecialColor.RESET);
         }
     }
 
@@ -44,7 +44,7 @@ public class _16_1_Array {
         String[] city = arrayMethod2();
         // for each
         for (String temp : city) {
-            System.out.println(_15_4_SpecialColor.YELLOW + temp + _15_4_SpecialColor.RESET);
+            System.out.println(com.tulaysahinduran._2_week._15_4_SpecialColor.YELLOW + temp + com.tulaysahinduran._2_week._15_4_SpecialColor.RESET);
         }
     }
 
@@ -57,7 +57,7 @@ public class _16_1_Array {
 
         // for each
         for (String temp : city) {
-            System.out.println(_15_4_SpecialColor.YELLOW + temp + _15_4_SpecialColor.RESET);
+            System.out.println(com.tulaysahinduran._2_week._15_4_SpecialColor.YELLOW + temp + com.tulaysahinduran._2_week._15_4_SpecialColor.RESET);
         }
     }
 
@@ -70,7 +70,7 @@ public class _16_1_Array {
 
         // for each
         for (String temp : city) {
-            System.out.println(_15_4_SpecialColor.BLUE + temp + _15_4_SpecialColor.RESET);
+            System.out.println(com.tulaysahinduran._2_week._15_4_SpecialColor.BLUE + temp + com.tulaysahinduran._2_week._15_4_SpecialColor.RESET);
         }
     }
 
@@ -89,16 +89,16 @@ public class _16_1_Array {
 
         // for each
         for (String temp : cloneCity) {
-            System.out.println(_15_4_SpecialColor.BLUE + temp + _15_4_SpecialColor.RESET);
+            System.out.println(com.tulaysahinduran._2_week._15_4_SpecialColor.BLUE + temp + com.tulaysahinduran._2_week._15_4_SpecialColor.RESET);
         }
 
         // Binary Search
         String searchCity="Sivas";
         int index= Arrays.binarySearch(cloneCity,searchCity);
         if(index>=0){
-            System.out.println(searchCity+_15_4_SpecialColor.BLUE   +" ili bulunmaktadır"+_15_4_SpecialColor.RESET);
+            System.out.println(searchCity+ com.tulaysahinduran._2_week._15_4_SpecialColor.BLUE   +" ili bulunmaktadır"+ com.tulaysahinduran._2_week._15_4_SpecialColor.RESET);
         }else{
-            System.out.println(searchCity+_15_4_SpecialColor.RED +" ili yoktur"+_15_4_SpecialColor.RESET);
+            System.out.println(searchCity+ com.tulaysahinduran._2_week._15_4_SpecialColor.RED +" ili yoktur"+ com.tulaysahinduran._2_week._15_4_SpecialColor.RESET);
         }
     }
     /// //////////////////////////////////////////////////////////////
@@ -124,7 +124,7 @@ public class _16_1_Array {
 
         // for each
         for (int temp : number) {
-            System.out.println(_15_4_SpecialColor.BLUE + temp + _15_4_SpecialColor.RESET);
+            System.out.println(com.tulaysahinduran._2_week._15_4_SpecialColor.BLUE + temp + com.tulaysahinduran._2_week._15_4_SpecialColor.RESET);
         }
     }
 
